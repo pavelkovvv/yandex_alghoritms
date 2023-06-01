@@ -24,4 +24,5 @@ for i in range(quantity):
 
 for i in range(mem_del):
     climbers.pop()
+    
 print(climbers)
