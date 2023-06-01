@@ -7,7 +7,7 @@ for i in range(quantity):
     in_ = [int(i) for i in input().split()]
     climbers.append(in_)
 
-print(climbers)
+print(climbers)j
 
 for i in range(quantity):
     for j in range(step):
