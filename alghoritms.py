@@ -1,12 +1,17 @@
-def subsequence(substring, whole_line):
-    position = -1
-    for i in substring:
-        position = whole_line.find(i, position + 1)
-        if position == - 1:
-            return False
-    return True
+quantity = int(input())
+arr = [int(i) for i in input().split()]
 
-substring = input()
-whole_line = input()
+counter = 0
+add_arr = [0, 0, 0]
+res_arr = []
 
-print(subsequence(substring, whole_line))
+for i in arr:
+    add_arr[i] += 1
+
+
+for i in add_arr:
+    for j in range(i):
+        res_arr.append(counter)
+    counter += 1
+
+print(*res_arr)
