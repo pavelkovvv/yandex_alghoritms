@@ -1,36 +1,52 @@
-# ID успешной посылки: 87949388
-import locale
+# ID успешной посылки: 87972678
+class Participant:
+    def __init__(self, name, points, penalty):
+        self.name = name
+        self.points = points
+        self.penalty = penalty
+
+    def __str__(self):
+        return self.name
+
+    def __lt__(self, other):
+        if isinstance(other, Participant):
+            return(
+                (-self.points, self.penalty, self.name) <
+                (-other.points, other.penalty, other.name)
+            )
+        return NotImplemented
 
 
-def quicksort(arr, low, high):
-    if low < high:
-        pivot_index = partition(arr, low, high)
-        quicksort(arr, low, pivot_index - 1)
-        quicksort(arr, pivot_index + 1, high)
+def quicksort(arr: list, start=0, end=0):
+
+    def partition(low, high):
+        if low >= high:
+            return None
+        left = low
+        right = high
+        pivot = arr[(right + left) // 2]
+        while left <= right:
+            while arr[left] < pivot:
+                left += 1
+            while arr[right] > pivot:
+                right -= 1
+            if left <= right:
+                arr[left], arr[right] = arr[right], arr[left]
+                left += 1
+                right -= 1
+        partition(low, right)
+        partition(left, high)
+
+    partition(start, end - 1)
 
 
-def partition(arr, low, high):
-    pivot = arr[high][1]
-    i = low - 1
-    for j in range(low, high):
-        if (arr[j][1] > pivot or (arr[j][1] == pivot and arr[j][2]
-                                  < arr[high][2]) or
-                (arr[j][1] == pivot and arr[j][2] == arr[high][2]
-                 and locale.strcoll(arr[j][0], arr[high][0]) < 0)):
-            i += 1
-            arr[i], arr[j] = arr[j], arr[i]
-    arr[i+1], arr[high] = arr[high], arr[i+1]
-    return i+1
-
-
-quantity = int(input())
-arr = [5] * quantity
-
-for i in range(quantity):
-    x, y, z = input().split()
-    arr[i] = [str(x), int(y), int(z)]
-
-quicksort(arr, 0, len(arr)-1)
-
-for i in range(quantity):
-    print(arr[i][0])
+if __name__ == '__main__':
+    quantity = int(input())
+    participants = []
+    for index in range(quantity):
+        name, points, penalty = input().split()
+        participants.append(
+            Participant(points=int(points), penalty=int(penalty), name=name)
+        )
+    quicksort(participants, end=len(participants))
+    print(*participants, sep='\n')
