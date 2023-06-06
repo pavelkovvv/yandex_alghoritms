@@ -10,12 +10,12 @@ def quicksort(arr, low, high):
 
 
 def partition(arr, low, high):
-    pivot = arr[high][1]
+    pivt = arr[high][1]
     i = low - 1
     for j in range(low, high):
-        if (arr[j][1] > pivot or (arr[j][1] == pivot and arr[j][2]
-                                  < arr[high][2]) or
-                (arr[j][1] == pivot and arr[j][2] == arr[high][2]
+        if (arr[j][1] > pivt or (arr[j][1] == pivt and arr[j][2]
+                                 < arr[high][2]) or
+                (arr[j][1] == pivt and arr[j][2] == arr[high][2]
                  and locale.strcoll(arr[j][0], arr[high][0]) < 0)):
             i += 1
             arr[i], arr[j] = arr[j], arr[i]
