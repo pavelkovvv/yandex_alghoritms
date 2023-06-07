@@ -1,36 +1,28 @@
-# ID успешной посылки: 87949388
-import locale
-
-
-def quicksort(arr, low, high):
-    if low < high:
-        pivot_index = partition(arr, low, high)
-        quicksort(arr, low, pivot_index - 1)
-        quicksort(arr, pivot_index + 1, high)
-
-
-def partition(arr, low, high):
-    pivt = arr[high][1]
-    i = low - 1
-    for j in range(low, high):
-        if (arr[j][1] > pivt or (arr[j][1] == pivt and arr[j][2]
-                                 < arr[high][2]) or
-                (arr[j][1] == pivt and arr[j][2] == arr[high][2]
-                 and locale.strcoll(arr[j][0], arr[high][0]) < 0)):
+def get_mean(north, south, len_north, len_sout):
+    length = len_north + len_sout
+    res_len = length // 2 + 1
+    i, j = 0, 0
+    res = []
+    for k in range(res_len):
+        if i < len_north and j < len_sout:
+            if north[i] < south[j]:
+                res.append(north[i])
+                i += 1
+            else:
+                res.append(south[j])
+                j += 1
+        elif i < len_north:
+            res.append(north[i])
             i += 1
-            arr[i], arr[j] = arr[j], arr[i]
-    arr[i+1], arr[high] = arr[high], arr[i+1]
-    return i+1
+        else:
+            res.append(south[j])
+            j += 1
+    return (res[-1] + res[-2]) / 2.0 if (length % 2 == 0) else int(res[-1])
 
 
-quantity = int(input())
-arr = [5] * quantity
-
-for i in range(quantity):
-    x, y, z = input().split()
-    arr[i] = [str(x), int(y), int(z)]
-
-quicksort(arr, 0, len(arr)-1)
-
-for i in range(quantity):
-    print(arr[i][0])
+if __name__ == '__main__':
+    len_north = int(input())
+    len_south = int(input())
+    north = [int(i) for i in input().split()]
+    south = [int(i) for i in input().split()]
+    print(get_mean(north, south, len_north, len_south))
