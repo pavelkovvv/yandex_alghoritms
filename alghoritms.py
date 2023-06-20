@@ -1,18 +1,18 @@
-def get_mean(north, south, len_nor, len_):
+def get_mean(nort, south, len_nor, len_):
     length = len_nor + len_
     res_len = length // 2 + 1
     i, j = 0, 0
     res = []
     for k in range(res_len):
         if i < len_nor and j < len_:
-            if north[i] < south[j]:
-                res.append(north[i])
+            if nort[i] < south[j]:
+                res.append(nort[i])
                 i += 1
             else:
                 res.append(south[j])
                 j += 1
         elif i < len_nor:
-            res.append(north[i])
+            res.append(nort[i])
             i += 1
         else:
             res.append(south[j])
