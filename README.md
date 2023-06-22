@@ -46,7 +46,7 @@
 
 <details>
 <summary>
-<b>Чётные и нечётные числа (<a href="intro_algorithms/b_even_and_odd_numbers.py">b_even_and_odd_numbers.py</a></b>)
+<b>Чётные и нечётные числа (<a href="intro_alghoritms/even_and_odd_numbers.py">even_and_odd_numbers.py</a></b>)
 </summary>
 
 #### Условие:
@@ -86,7 +86,7 @@
 
 <details>
 <summary>
-<b>Соседи (<a href="intro_algorithms/c_Neighbors.py">c_Neighbors.py</a></b>)
+<b>Соседи (<a href="intro_alghoritms/neighbors.py">neighbors.py</a></b>)
 </summary>
 
 #### Условие:
@@ -139,7 +139,7 @@
 
 <details>
 <summary>
-<b>Хаотичность погоды (<a href="intro_algorithms/d_Chaotic_weather.py">d_Chaotic_weather.py</a></b>)
+<b>Хаотичность погоды (<a href="intro_alghoritms/chaotic_weather.py">chaotic_weather.py</a></b>)
 </summary>
 
 #### Условие:
@@ -188,7 +188,7 @@
 
 <details>
 <summary>
-<b>Самое длинное слово (<a href="intro_algorithms/e_The_longest_word.py">e_The_longest_word.py</a></b>)
+<b>Самое длинное слово (<a href="intro_alghoritms/the_longest_word.py">the_longest_word.py</a></b>)
 </summary>
 
 #### Условие:
@@ -234,7 +234,7 @@
 
 <details>
 <summary>
-<b>Палиндром (<a href="intro_algorithms/f_Palindrome.py">f_Palindrome.py</a></b>)
+<b>Палиндром (<a href="intro_alghoritms/palindrome.py">palindrome.py</a></b>)
 </summary>
 
 #### Условие:
@@ -276,7 +276,7 @@
 
 <details>
 <summary>
-<b>Работа из дома (<a href="intro_algorithms/g_Working_from_home.py">g_Working_from_home.py</a></b>)
+<b>Работа из дома (<a href="intro_alghoritms/working_from_home.py">working_from_home.py</a></b>)
 </summary>
 
 #### Условие:
@@ -317,7 +317,7 @@
 
 <details>
 <summary>
-<b>Двоичная система (<a href="intro_algorithms/h_Binary_system.py">h_Binary_system.py</a></b>)
+<b>Двоичная система (<a href="intro_alghoritms/binary_system.py">binary_system.py</a></b>)
 </summary>
 
 #### Условие:
@@ -361,7 +361,7 @@
 
 <details>
 <summary>
-<b>Степень четырёх (<a href="intro_algorithms/i_Degree_of_four.py">i_Degree_of_four.py</a></b>)
+<b>Степень четырёх (<a href="intro_alghoritms/degree_of_four.py">degree_of_four.py</a></b>)
 </summary>
 
 #### Условие:
@@ -403,7 +403,7 @@
 
 <details>
 <summary>
-<b>Факторизация (<a href="intro_algorithms/j_Factorization.py">j_Factorization.py</a></b>)
+<b>Факторизация (<a href="intro_alghoritms/factorization.py">factorization.py</a></b>)
 </summary>
 
 #### Условие:
@@ -448,7 +448,7 @@
 
 <details>
 <summary>
-<b>Списочная форма (<a href="intro_algorithms/k_List_form.py">k_List_form.py</a></b>)
+<b>Списочная форма (<a href="intro_alghoritms/list_form.py">list_form.py</a></b>)
 </summary>
 
 #### Условие:
@@ -494,7 +494,7 @@
 
 <details>
 <summary>
-<b>Лишняя буква (<a href="intro_algorithms/l_Extra_letter.py">l_Extra_letter.py</a></b>)
+<b>Лишняя буква (<a href="intro_alghoritms/extra_letter.py">extra_letter.py</a></b>)
 </summary>
 
 #### Условие:
@@ -535,7 +535,7 @@
 
 <details>
 <summary>
-<b>Ближайший ноль Финальная задача (<a href="intro_algorithms/final_task_nearest_zero.py">final_task_nearest_zero.py</a></b>)
+<b>Ближайший ноль Финальная задача (<a href="intro_alghoritms/final_task_nearest_zero.py">final_task_nearest_zero.py</a></b>)
 </summary>
 
 #### Условие:
@@ -587,7 +587,7 @@
 
 <details>
 <summary>
-<b>Ловкость рук Финальная задача (<a href="intro_algorithms/final_task_trainer.py">final_task_trainer.py</a></b>)
+<b>Ловкость рук Финальная задача (<a href="intro_alghoritms/final_task_trainer.py">final_task_trainer.py</a></b>)
 </summary>
 
 #### Условие:
