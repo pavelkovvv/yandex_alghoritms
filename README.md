@@ -641,7 +641,7 @@
 
 <details>
 <summary>
-<b>Мониторинг (<a href="basic_data_structures/a_monitoring.py">a_monitoring.py</a></b>)
+<b>Мониторинг (<a href="basic_data_structures/monitoring.py">monitoring.py</a></b>)
 </summary>
 
 #### Условие:
@@ -696,7 +696,7 @@
 
 <details>
 <summary>
-<b>Список дел (<a href="basic_data_structures/b_to-do_list.py">b_to-do_list..py</a></b>)
+<b>Список дел (<a href="basic_data_structures/to-do_list.py">to-do_list..py</a></b>)
 </summary>
 
 #### Условие:
@@ -721,7 +721,7 @@
 
 <details>
 <summary>
-<b>Нелюбимое дело (<a href="basic_data_structures/c_unloved_case.py">c_unloved_case.py</a></b>)
+<b>Нелюбимое дело (<a href="basic_data_structures/unloved_case.py">unloved_case.py</a></b>)
 </summary>
 
 #### Условие:
@@ -750,7 +750,7 @@
 
 <details>
 <summary>
-<b>Заботливая мама (<a href="basic_data_structures/d_caring_mother.py">d_caring_mother.py</a></b>)
+<b>Заботливая мама (<a href="basic_data_structures/caring_mother.py">caring_mother.py</a></b>)
 </summary>
 
 #### Условие:
@@ -777,7 +777,7 @@
 
 <details>
 <summary>
-<b>Всё наоборот (<a href="basic_data_structures/e_it_opposite.py">e_it_opposite.py</a></b>)
+<b>Всё наоборот (<a href="basic_data_structures/it_opposite.py">it_opposite.py</a></b>)
 </summary>
 
 #### Условие:
@@ -804,7 +804,7 @@
 
 <details>
 <summary>
-<b>Стек - Max (<a href="basic_data_structures/f_stack-max.py">f_stack-max.py</a></b>)
+<b>Стек - Max (<a href="basic_data_structures/stack-max.py">stack-max.py</a></b>)
 </summary>
 
 #### Условие:
@@ -861,7 +861,31 @@
 
 <details>
 <summary>
-<b>Скобочная последовательность (<a href="basic_data_structures/h_bracket_sequence.py">h_bracket_sequence.py</a></b>)
+<b>Стек - Max (<a href="basic_data_structures/stack-max-effectivity.py">stack-max-effectivity.py</a></b>)
+</summary>
+
+#### Условие:
+[Ссылка](https://contest.yandex.ru/contest/23758/problems/G/)
+
+Реализуйте класс StackMaxEffective, поддерживающий операцию определения максимума среди элементов в стеке. Сложность операции должна быть O(1). Для пустого стека операция должна возвращать None. При этом push(x) и pop() также должны выполняться за константное время.
+
+#### Формат ввода
+В первой строке записано одно число — количество команд, оно не превосходит 100000. Далее идут команды по одной в строке. Команды могут быть следующих видов:
+
+push(x) — добавить число x в стек;
+pop() — удалить число с вершины стека;
+get_max() — напечатать максимальное число в стеке;
+Если стек пуст, при вызове команды get_max нужно напечатать «None», для команды pop — «error».
+
+#### Формат вывода
+Для каждой команды get_max() напечатайте результат её выполнения. Если стек пустой, для команды get_max() напечатайте «None». Если происходит удаление из пустого стека — напечатайте «error».
+
+</details>
+---
+
+<details>
+<summary>
+<b>Скобочная последовательность (<a href="basic_data_structures/bracket_sequence.py">bracket_sequence.py</a></b>)
 </summary>
 
 #### Условие:
@@ -911,7 +935,7 @@
 
 <details>
 <summary>
-<b>Ограниченная очередь (<a href="basic_data_structures/i_limited_queue.py">i_limited_queue.py</a></b>)
+<b>Ограниченная очередь (<a href="basic_data_structures/limited_queue.py">limited_queue.py</a></b>)
 </summary>
 
 #### Условие:
@@ -974,7 +998,7 @@
 
 <details>
 <summary>
-<b>Списочная очередь (<a href="basic_data_structures/j_list_queue.py">j_list_queue.py</a></b>)
+<b>Списочная очередь (<a href="basic_data_structures/list_queue.py">list_queue.py</a></b>)
 </summary>
 
 #### Условие:
@@ -1033,7 +1057,7 @@
 
 <details>
 <summary>
-<b>Рекурсивные числа Фибоначчи (<a href="basic_data_structures/k_recursive_Fibonacci_numbers.py">k_recursive_Fibonacci_numbers.py</a></b>)
+<b>Рекурсивные числа Фибоначчи (<a href="basic_data_structures/recursive_Fibonacci_numbers.py">recursive_Fibonacci_numbers.py</a></b>)
 </summary>
 
 #### Условие:
@@ -1076,7 +1100,7 @@
 
 <details>
 <summary>
-<b>Фибоначчи по модулю (<a href="basic_data_structures/l_Fibonacci_modulo.py">l_Fibonacci_modulo.py</a></b>)
+<b>Фибоначчи по модулю (<a href="basic_data_structures/Fibonacci_modulo.py">Fibonacci_modulo.py</a></b>)
 </summary>
 
 #### Условие:
