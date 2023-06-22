@@ -861,11 +861,11 @@
 
 <details>
 <summary>
-<b>Стек - Max (<a href="basic_data_structures/stack-max-effectivity.py">stack-max-effectivity.py</a></b>)
+<b>Стек - MaxEffectivity (<a href="basic_data_structures/stack-max-effectivity.py">stack-max-effectivity.py</a></b>)
 </summary>
 
 #### Условие:
-[Ссылка](https://contest.yandex.ru/contest/23758/problems/G/)
+[Ссылка](https://contest.yandex.ru/contest/23758/problems/F/)
 
 Реализуйте класс StackMaxEffective, поддерживающий операцию определения максимума среди элементов в стеке. Сложность операции должна быть O(1). Для пустого стека операция должна возвращать None. При этом push(x) и pop() также должны выполняться за константное время.
 
@@ -881,6 +881,7 @@ get_max() — напечатать максимальное число в сте
 Для каждой команды get_max() напечатайте результат её выполнения. Если стек пустой, для команды get_max() напечатайте «None». Если происходит удаление из пустого стека — напечатайте «error».
 
 </details>
+
 ---
 
 <details>
