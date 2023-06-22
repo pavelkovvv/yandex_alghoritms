@@ -4,7 +4,7 @@
 
 <details>
 <summary>
-<b>Значения функции (<a href="intro_algorithms/a_function_values.py">a_function_values.py</a></b>)
+<b>Значения функции (<a href="intro_algorithms/function_values.py">function_values.py</a></b>)
 </summary>
 
 #### Условие: 
